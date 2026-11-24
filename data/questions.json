@@ -1,0 +1,139 @@
+{
+  "languages": [
+    {
+      "code": "es",
+      "name": "Spanish",
+      "questions": [
+        {
+          "id": "es001",
+          "phrase": "Estar en las nubes",
+          "literal_translation": "To be in the clouds",
+          "choices": [
+            {"id": "a", "text": "To be extremely happy"},
+            {"id": "b", "text": "To be distracted or daydreaming"},
+            {"id": "c", "text": "To be afraid of heights"},
+            {"id": "d", "text": "To be very confused"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression describes someone who is distracted, lost in thought, or not paying attention to what is happening around them."
+        },
+        {
+          "id": "es002",
+          "phrase": "Costar un ojo de la cara",
+          "literal_translation": "To cost an eye from your face",
+          "choices": [
+            {"id": "a", "text": "To be incredibly expensive"},
+            {"id": "b", "text": "To be impossible to find"},
+            {"id": "c", "text": "To be dangerous"},
+            {"id": "d", "text": "To be extremely valuable emotionally"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This idiom means that something costs a great deal of money. It is similar to the English expression 'to cost an arm and a leg.'"
+        },
+        {
+          "id": "es003",
+          "phrase": "No tener pelos en la lengua",
+          "literal_translation": "To have no hairs on your tongue",
+          "choices": [
+            {"id": "a", "text": "To be unable to speak"},
+            {"id": "b", "text": "To constantly gossip"},
+            {"id": "c", "text": "To speak frankly and directly"},
+            {"id": "d", "text": "To be very persuasive"}
+          ],
+          "correct_option_id": "c",
+          "explanation": "This expression describes someone who speaks their mind without holding back, even when their opinions might be uncomfortable."
+        }
+      ]
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "questions": [
+        {
+          "id": "fr001",
+          "phrase": "Avoir le cafard",
+          "literal_translation": "To have the cockroach",
+          "choices": [
+            {"id": "a", "text": "To be disgusted by something"},
+            {"id": "b", "text": "To feel sad or depressed"},
+            {"id": "c", "text": "To be afraid of insects"},
+            {"id": "d", "text": "To be extremely tired"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This French expression means to feel down, gloomy, or melancholy."
+        },
+        {
+          "id": "fr002",
+          "phrase": "Poser un lapin",
+          "literal_translation": "To put down a rabbit",
+          "choices": [
+            {"id": "a", "text": "To abandon a pet"},
+            {"id": "b", "text": "To surprise someone"},
+            {"id": "c", "text": "To stand someone up"},
+            {"id": "d", "text": "To avoid paying for something"}
+          ],
+          "correct_option_id": "c",
+          "explanation": "This expression means to fail to show up for an appointment or date without warning someone."
+        },
+        {
+          "id": "fr003",
+          "phrase": "Tomber dans les pommes",
+          "literal_translation": "To fall into the apples",
+          "choices": [
+            {"id": "a", "text": "To fall asleep"},
+            {"id": "b", "text": "To faint or lose consciousness"},
+            {"id": "c", "text": "To fall in love"},
+            {"id": "d", "text": "To become embarrassed"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This is a common French idiom meaning to faint or pass out."
+        }
+      ]
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "questions": [
+        {
+          "id": "de001",
+          "phrase": "Ich verstehe nur Bahnhof",
+          "literal_translation": "I only understand train station",
+          "choices": [
+            {"id": "a", "text": "I only understand directions"},
+            {"id": "b", "text": "I am lost at the train station"},
+            {"id": "c", "text": "I don't understand anything"},
+            {"id": "d", "text": "I want to travel somewhere"}
+          ],
+          "correct_option_id": "c",
+          "explanation": "This German idiom means that you cannot understand what someone is saying or explaining. It is similar to saying 'It's all Greek to me' in English."
+        },
+        {
+          "id": "de002",
+          "phrase": "Da steppt der Bär",
+          "literal_translation": "The bear dances there",
+          "choices": [
+            {"id": "a", "text": "There is a lively party or exciting atmosphere"},
+            {"id": "b", "text": "Something dangerous is happening"},
+            {"id": "c", "text": "Someone is behaving strangely"},
+            {"id": "d", "text": "There are wild animals nearby"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This expression describes a place where there is lots of excitement, energy, and fun, often a great party."
+        },
+        {
+          "id": "de003",
+          "phrase": "Tomaten auf den Augen haben",
+          "literal_translation": "To have tomatoes on your eyes",
+          "choices": [
+            {"id": "a", "text": "To be crying"},
+            {"id": "b", "text": "To be unable to see something obvious"},
+            {"id": "c", "text": "To be extremely tired"},
+            {"id": "d", "text": "To have poor eyesight"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This German expression describes someone who fails to notice something obvious that is right in front of them."
+        }
+      ]
+    }
+  ]
+}
