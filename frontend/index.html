@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What'd Ya Say?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>What'd Ya Say?</h1>
+            <p>Think you know what these idioms mean?</p>
+        </header>
+
+        <!-- Language Selection Screen -->
+        <section id="language-screen">
+            <h2>Choose a Language</h2>
+            <div id="language-options"></div>
+        </section>
+
+        <!-- Game Screen -->
+        <section id="game-screen" class="hidden">
+
+            <div class="question-info">
+                <p id="language-name"></p>
+                <p id="question-number"></p>
+            </div>
+
+            <div class="question-card">
+                <h2 id="idiom"></h2>
+                <p id="literal-translation"></p>
+
+                <h3>What does this idiom mean?</h3>
+
+                <div id="answer-options"></div>
+
+                <div id="feedback"></div>
+
+                <button id="next-button" class="hidden">
+                    Next Question
+                </button>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
