@@ -5,6 +5,7 @@ let questions = [];
 let currentQuestionIndex = 0;
 let selectedLanguage = null;
 let answered = false;
+let score = 0;
 
 
 // Get HTML elements
@@ -14,10 +15,17 @@ const languageOptions = document.getElementById("language-options");
 
 const languageName = document.getElementById("language-name");
 const questionNumber = document.getElementById("question-number");
+const scoreDisplay = document.getElementById("score-display");
+
 const idiom = document.getElementById("idiom");
 const literalTranslation = document.getElementById("literal-translation");
 const answerOptions = document.getElementById("answer-options");
 const feedback = document.getElementById("feedback");
+
+const finalResults = document.getElementById("final-results");
+const finalScore = document.getElementById("final-score");
+const finalPercentage = document.getElementById("final-percentage");
+
 const nextButton = document.getElementById("next-button");
 
 
@@ -68,11 +76,16 @@ async function startGame(language) {
         }
 
         questions = await response.json();
-        currentQuestionIndex = 0;
 
         if (questions.length === 0) {
             throw new Error("No questions available");
         }
+
+        currentQuestionIndex = 0;
+        score = 0;
+
+        scoreDisplay.textContent = "Score: 0";
+        finalResults.classList.add("hidden");
 
         languageScreen.classList.add("hidden");
         gameScreen.classList.remove("hidden");
@@ -96,6 +109,8 @@ function renderQuestion() {
     questionNumber.textContent =
         `Question ${currentQuestionIndex + 1} of ${questions.length}`;
 
+    scoreDisplay.textContent = `Score: ${score}`;
+
     idiom.textContent = question.phrase;
 
     literalTranslation.textContent =
@@ -103,6 +118,8 @@ function renderQuestion() {
 
     answerOptions.innerHTML = "";
     feedback.textContent = "";
+
+    finalResults.classList.add("hidden");
 
     nextButton.classList.add("hidden");
     nextButton.textContent = "Next Question";
@@ -155,19 +172,19 @@ async function submitAnswer(questionId, selectedOptionId, selectedButton) {
         const result = await response.json();
 
         if (result.correct) {
+            score++;
             selectedButton.classList.add("correct");
             feedback.textContent = "Correct! " + result.explanation;
         } else {
             selectedButton.classList.add("incorrect");
 
-            // Highlight the correct answer
+            const question = questions[currentQuestionIndex];
+
+            const correctChoice = question.choices.find(
+                choice => choice.id === result.correct_option_id
+            );
+
             buttons.forEach(button => {
-                const question = questions[currentQuestionIndex];
-
-                const correctChoice = question.choices.find(
-                    choice => choice.id === result.correct_option_id
-                );
-
                 if (correctChoice &&
                     button.textContent === correctChoice.text) {
                     button.classList.add("correct");
@@ -178,8 +195,10 @@ async function submitAnswer(questionId, selectedOptionId, selectedButton) {
                 "Incorrect. " + result.explanation;
         }
 
+        scoreDisplay.textContent = `Score: ${score}`;
+
         if (currentQuestionIndex === questions.length - 1) {
-            nextButton.textContent = "Choose Another Language";
+            nextButton.textContent = "See Final Results";
         }
 
         nextButton.classList.remove("hidden");
@@ -197,19 +216,50 @@ async function submitAnswer(questionId, selectedOptionId, selectedButton) {
 }
 
 
-// Move to the next question
+// Display the final results
+function showFinalResults() {
+    const percentage = Math.round((score / questions.length) * 100);
+
+    idiom.classList.add("hidden");
+    literalTranslation.classList.add("hidden");
+    answerOptions.classList.add("hidden");
+
+    feedback.textContent = "";
+
+    finalScore.textContent =
+        `You got ${score} out of ${questions.length} questions correct!`;
+
+    finalPercentage.textContent =
+        `Your accuracy: ${percentage}%`;
+
+    finalResults.classList.remove("hidden");
+
+    questionNumber.textContent = "Completed";
+
+    nextButton.textContent = "Choose Another Language";
+}
+
+
+// Move to the next question or show final results
 nextButton.addEventListener("click", function () {
     if (currentQuestionIndex < questions.length - 1) {
         currentQuestionIndex++;
         renderQuestion();
-    } else {
+    } else if (!finalResults.classList.contains("hidden")) {
         // Return to language selection
         gameScreen.classList.add("hidden");
         languageScreen.classList.remove("hidden");
 
+        idiom.classList.remove("hidden");
+        literalTranslation.classList.remove("hidden");
+        answerOptions.classList.remove("hidden");
+
         questions = [];
         currentQuestionIndex = 0;
         selectedLanguage = null;
+        score = 0;
+    } else {
+        showFinalResults();
     }
 });
 
