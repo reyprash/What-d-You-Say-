@@ -8,38 +8,75 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="container">
-
         <header>
             <h1>What'd Ya Say?</h1>
             <p>Think you know what these idioms mean?</p>
         </header>
 
-        <!-- Language Selection Screen -->
-        <section id="language-screen">
+        <!-- Main Menu -->
+        <section id="menu-screen">
+            <h2>Choose a Game Mode</h2>
+            <div class="menu-options">
+                <button id="regular-game-button" class="menu-button">
+                    Regular Game
+                </button>
+                <button id="daily-challenge-button" class="menu-button">
+                    Daily Challenge
+                </button>
+            </div>
+        </section>
+
+        <!-- Language Selection -->
+        <section id="language-screen" class="hidden">
             <h2>Choose a Language</h2>
             <div id="language-options"></div>
+            <button id="language-back-button" class="back-button">
+                Back
+            </button>
+        </section>
+
+        <!-- Difficulty Selection -->
+        <section id="difficulty-screen" class="hidden">
+            <h2>Choose a Difficulty</h2>
+            <p id="selected-language-name"></p>
+
+            <div class="difficulty-options">
+                <button class="difficulty-button" data-difficulty="easy">
+                    Easy
+                </button>
+                <button class="difficulty-button" data-difficulty="medium">
+                    Medium
+                </button>
+                <button class="difficulty-button" data-difficulty="hard">
+                    Hard
+                </button>
+            </div>
+
+            <button id="difficulty-back-button" class="back-button">
+                Back
+            </button>
         </section>
 
         <!-- Game Screen -->
         <section id="game-screen" class="hidden">
-
             <div class="question-info">
                 <p id="language-name"></p>
+                <p id="difficulty-name"></p>
                 <p id="question-number"></p>
                 <p id="score-display">Score: 0</p>
             </div>
 
             <div class="question-card">
-                <h2 id="idiom"></h2>
-                <p id="literal-translation"></p>
+                <div id="question-content">
+                    <h2 id="idiom"></h2>
+                    <p id="literal-translation"></p>
 
-                <h3>What does this idiom mean?</h3>
+                    <h3>What does this idiom mean?</h3>
 
-                <div id="answer-options"></div>
-
-                <div id="feedback"></div>
+                    <div id="answer-options"></div>
+                    <div id="feedback"></div>
+                </div>
 
                 <div id="final-results" class="hidden">
                     <h2>Game Complete!</h2>
@@ -51,9 +88,7 @@
                     Next Question
                 </button>
             </div>
-
         </section>
-
     </div>
 
     <script src="script.js"></script>

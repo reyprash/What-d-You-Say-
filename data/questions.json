@@ -1,3 +1,4 @@
+
 {
   "languages": [
     {
@@ -6,6 +7,7 @@
       "questions": [
         {
           "id": "es001",
+          "difficulty": "easy",
           "phrase": "Estar en las nubes",
           "literal_translation": "To be in the clouds",
           "choices": [
@@ -15,23 +17,25 @@
             {"id": "d", "text": "To be very confused"}
           ],
           "correct_option_id": "b",
-          "explanation": "This expression describes someone who is distracted, lost in thought, or not paying attention to what is happening around them."
+          "explanation": "This expression describes someone who is distracted, lost in thought, or not paying attention."
         },
         {
           "id": "es002",
+          "difficulty": "easy",
           "phrase": "Costar un ojo de la cara",
           "literal_translation": "To cost an eye from your face",
           "choices": [
             {"id": "a", "text": "To be incredibly expensive"},
             {"id": "b", "text": "To be impossible to find"},
             {"id": "c", "text": "To be dangerous"},
-            {"id": "d", "text": "To be extremely valuable emotionally"}
+            {"id": "d", "text": "To be emotionally valuable"}
           ],
           "correct_option_id": "a",
-          "explanation": "This idiom means that something costs a great deal of money. It is similar to the English expression 'to cost an arm and a leg.'"
+          "explanation": "This idiom means that something costs a great deal of money."
         },
         {
           "id": "es003",
+          "difficulty": "easy",
           "phrase": "No tener pelos en la lengua",
           "literal_translation": "To have no hairs on your tongue",
           "choices": [
@@ -41,7 +45,91 @@
             {"id": "d", "text": "To be very persuasive"}
           ],
           "correct_option_id": "c",
-          "explanation": "This expression describes someone who speaks their mind without holding back, even when their opinions might be uncomfortable."
+          "explanation": "This expression describes someone who speaks their mind without holding back."
+        },
+        {
+          "id": "es004",
+          "difficulty": "medium",
+          "phrase": "Meter la pata",
+          "literal_translation": "To put the paw in",
+          "choices": [
+            {"id": "a", "text": "To make a serious mistake"},
+            {"id": "b", "text": "To become involved in an argument"},
+            {"id": "c", "text": "To move somewhere quickly"},
+            {"id": "d", "text": "To avoid responsibility"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This idiom means to mess up or make an embarrassing mistake."
+        },
+        {
+          "id": "es005",
+          "difficulty": "medium",
+          "phrase": "Dar en el clavo",
+          "literal_translation": "To hit the nail",
+          "choices": [
+            {"id": "a", "text": "To work extremely hard"},
+            {"id": "b", "text": "To guess or identify something exactly right"},
+            {"id": "c", "text": "To finish a difficult task"},
+            {"id": "d", "text": "To hurt someone's feelings"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression means to get something exactly right or identify the key point."
+        },
+        {
+          "id": "es006",
+          "difficulty": "medium",
+          "phrase": "Tirar la casa por la ventana",
+          "literal_translation": "To throw the house out the window",
+          "choices": [
+            {"id": "a", "text": "To abandon your home"},
+            {"id": "b", "text": "To spend money very extravagantly"},
+            {"id": "c", "text": "To start a new business"},
+            {"id": "d", "text": "To renovate a house"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This idiom means to spend lavishly, often for a special celebration."
+        },
+        {
+          "id": "es007",
+          "difficulty": "hard",
+          "phrase": "A buenas horas, mangas verdes",
+          "literal_translation": "At a good time, green sleeves",
+          "choices": [
+            {"id": "a", "text": "Better late than never"},
+            {"id": "b", "text": "Someone arrives too late to be useful"},
+            {"id": "c", "text": "An unexpected opportunity appears"},
+            {"id": "d", "text": "Things improve with patience"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression is used sarcastically when someone arrives or acts too late to help."
+        },
+        {
+          "id": "es008",
+          "difficulty": "hard",
+          "phrase": "Estar entre la espada y la pared",
+          "literal_translation": "To be between the sword and the wall",
+          "choices": [
+            {"id": "a", "text": "To be physically trapped"},
+            {"id": "b", "text": "To be caught between two equally difficult choices"},
+            {"id": "c", "text": "To be involved in a dangerous profession"},
+            {"id": "d", "text": "To be forced to defend someone"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This idiom describes being in a difficult situation with no easy way out."
+        },
+        {
+          "id": "es009",
+          "difficulty": "hard",
+          "phrase": "Buscarle tres pies al gato",
+          "literal_translation": "To look for three feet on the cat",
+          "choices": [
+            {"id": "a", "text": "To search for something impossible to find"},
+            {"id": "b", "text": "To overcomplicate something or look for problems unnecessarily"},
+            {"id": "c", "text": "To distrust everyone around you"},
+            {"id": "d", "text": "To avoid an obvious solution"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression describes unnecessarily complicating something or searching for problems where there are none."
         }
       ]
     },
@@ -51,6 +139,7 @@
       "questions": [
         {
           "id": "fr001",
+          "difficulty": "easy",
           "phrase": "Avoir le cafard",
           "literal_translation": "To have the cockroach",
           "choices": [
@@ -64,6 +153,7 @@
         },
         {
           "id": "fr002",
+          "difficulty": "easy",
           "phrase": "Poser un lapin",
           "literal_translation": "To put down a rabbit",
           "choices": [
@@ -73,10 +163,11 @@
             {"id": "d", "text": "To avoid paying for something"}
           ],
           "correct_option_id": "c",
-          "explanation": "This expression means to fail to show up for an appointment or date without warning someone."
+          "explanation": "This expression means to fail to show up for an appointment or date."
         },
         {
           "id": "fr003",
+          "difficulty": "easy",
           "phrase": "Tomber dans les pommes",
           "literal_translation": "To fall into the apples",
           "choices": [
@@ -87,6 +178,90 @@
           ],
           "correct_option_id": "b",
           "explanation": "This is a common French idiom meaning to faint or pass out."
+        },
+        {
+          "id": "fr004",
+          "difficulty": "medium",
+          "phrase": "Avoir un poil dans la main",
+          "literal_translation": "To have a hair in one's hand",
+          "choices": [
+            {"id": "a", "text": "To be very lazy"},
+            {"id": "b", "text": "To be extremely talented"},
+            {"id": "c", "text": "To be unlucky"},
+            {"id": "d", "text": "To be very nervous"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This expression describes someone who is lazy or avoids doing work."
+        },
+        {
+          "id": "fr005",
+          "difficulty": "medium",
+          "phrase": "Donner sa langue au chat",
+          "literal_translation": "To give one's tongue to the cat",
+          "choices": [
+            {"id": "a", "text": "To reveal a secret"},
+            {"id": "b", "text": "To give up trying to guess an answer"},
+            {"id": "c", "text": "To speak without thinking"},
+            {"id": "d", "text": "To refuse to answer someone"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This idiom is used when someone gives up trying to solve a riddle or guess something."
+        },
+        {
+          "id": "fr006",
+          "difficulty": "medium",
+          "phrase": "Avoir la grosse tête",
+          "literal_translation": "To have a big head",
+          "choices": [
+            {"id": "a", "text": "To have a headache"},
+            {"id": "b", "text": "To be arrogant or conceited"},
+            {"id": "c", "text": "To be very intelligent"},
+            {"id": "d", "text": "To worry excessively"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression describes someone who has become arrogant or overly proud."
+        },
+        {
+          "id": "fr007",
+          "difficulty": "hard",
+          "phrase": "Appeler un chat un chat",
+          "literal_translation": "To call a cat a cat",
+          "choices": [
+            {"id": "a", "text": "To describe things plainly and directly"},
+            {"id": "b", "text": "To give someone a nickname"},
+            {"id": "c", "text": "To expose someone's private life"},
+            {"id": "d", "text": "To exaggerate a small problem"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This means to call things by their proper names and speak frankly."
+        },
+        {
+          "id": "fr008",
+          "difficulty": "hard",
+          "phrase": "En faire tout un fromage",
+          "literal_translation": "To make a whole cheese out of it",
+          "choices": [
+            {"id": "a", "text": "To turn something into a business"},
+            {"id": "b", "text": "To make a big deal out of something minor"},
+            {"id": "c", "text": "To waste valuable resources"},
+            {"id": "d", "text": "To celebrate a small achievement"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This idiom means to exaggerate the importance of something or make a fuss over it."
+        },
+        {
+          "id": "fr009",
+          "difficulty": "hard",
+          "phrase": "Les carottes sont cuites",
+          "literal_translation": "The carrots are cooked",
+          "choices": [
+            {"id": "a", "text": "Dinner is almost ready"},
+            {"id": "b", "text": "A situation is hopeless or cannot be changed"},
+            {"id": "c", "text": "Someone has made a serious mistake"},
+            {"id": "d", "text": "Time is running out for a meal"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression means that everything is settled and there is no hope of changing the outcome."
         }
       ]
     },
@@ -96,6 +271,7 @@
       "questions": [
         {
           "id": "de001",
+          "difficulty": "easy",
           "phrase": "Ich verstehe nur Bahnhof",
           "literal_translation": "I only understand train station",
           "choices": [
@@ -105,10 +281,11 @@
             {"id": "d", "text": "I want to travel somewhere"}
           ],
           "correct_option_id": "c",
-          "explanation": "This German idiom means that you cannot understand what someone is saying or explaining. It is similar to saying 'It's all Greek to me' in English."
+          "explanation": "This German idiom means that you cannot understand what someone is saying."
         },
         {
           "id": "de002",
+          "difficulty": "easy",
           "phrase": "Da steppt der Bär",
           "literal_translation": "The bear dances there",
           "choices": [
@@ -118,10 +295,11 @@
             {"id": "d", "text": "There are wild animals nearby"}
           ],
           "correct_option_id": "a",
-          "explanation": "This expression describes a place where there is lots of excitement, energy, and fun, often a great party."
+          "explanation": "This expression describes a place full of excitement, energy, and fun."
         },
         {
           "id": "de003",
+          "difficulty": "easy",
           "phrase": "Tomaten auf den Augen haben",
           "literal_translation": "To have tomatoes on your eyes",
           "choices": [
@@ -131,7 +309,487 @@
             {"id": "d", "text": "To have poor eyesight"}
           ],
           "correct_option_id": "b",
-          "explanation": "This German expression describes someone who fails to notice something obvious that is right in front of them."
+          "explanation": "This expression describes someone who fails to notice something obvious."
+        },
+        {
+          "id": "de004",
+          "difficulty": "medium",
+          "phrase": "Schwein haben",
+          "literal_translation": "To have a pig",
+          "choices": [
+            {"id": "a", "text": "To be very wealthy"},
+            {"id": "b", "text": "To be extremely lucky"},
+            {"id": "c", "text": "To be messy"},
+            {"id": "d", "text": "To be stubborn"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This idiom means to be lucky, often unexpectedly."
+        },
+        {
+          "id": "de005",
+          "difficulty": "medium",
+          "phrase": "Die Daumen drücken",
+          "literal_translation": "To press the thumbs",
+          "choices": [
+            {"id": "a", "text": "To wish someone good luck"},
+            {"id": "b", "text": "To show anger"},
+            {"id": "c", "text": "To refuse a request"},
+            {"id": "d", "text": "To make a promise"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "Germans use this expression to wish someone good luck."
+        },
+        {
+          "id": "de006",
+          "difficulty": "medium",
+          "phrase": "Um den heißen Brei herumreden",
+          "literal_translation": "To talk around the hot porridge",
+          "choices": [
+            {"id": "a", "text": "To talk about food constantly"},
+            {"id": "b", "text": "To avoid getting to the point"},
+            {"id": "c", "text": "To speak too quickly"},
+            {"id": "d", "text": "To repeat the same story"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This means to avoid discussing the main issue directly."
+        },
+        {
+          "id": "de007",
+          "difficulty": "hard",
+          "phrase": "Jemandem einen Bären aufbinden",
+          "literal_translation": "To tie a bear onto someone",
+          "choices": [
+            {"id": "a", "text": "To burden someone with responsibility"},
+            {"id": "b", "text": "To tell someone an elaborate lie"},
+            {"id": "c", "text": "To frighten someone deliberately"},
+            {"id": "d", "text": "To make someone work harder"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This idiom means to fool someone by telling them something untrue."
+        },
+        {
+          "id": "de008",
+          "difficulty": "hard",
+          "phrase": "Jetzt geht es um die Wurst",
+          "literal_translation": "Now it is about the sausage",
+          "choices": [
+            {"id": "a", "text": "The most important or decisive moment has arrived"},
+            {"id": "b", "text": "Someone is hungry"},
+            {"id": "c", "text": "A celebration is beginning"},
+            {"id": "d", "text": "A situation has become ridiculous"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This expression means that the decisive moment has arrived and the outcome matters."
+        },
+        {
+          "id": "de009",
+          "difficulty": "hard",
+          "phrase": "Da beißt die Maus keinen Faden ab",
+          "literal_translation": "The mouse cannot bite off a thread there",
+          "choices": [
+            {"id": "a", "text": "A problem cannot be solved"},
+            {"id": "b", "text": "There is no denying a fact"},
+            {"id": "c", "text": "Someone refuses to cooperate"},
+            {"id": "d", "text": "A task requires great patience"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression emphasizes that something is undeniable or cannot be disputed."
+        }
+      ]
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "questions": [
+        {
+          "id": "it001",
+          "difficulty": "easy",
+          "phrase": "In bocca al lupo",
+          "literal_translation": "Into the wolf's mouth",
+          "choices": [
+            {"id": "a", "text": "Good luck"},
+            {"id": "b", "text": "Be careful"},
+            {"id": "c", "text": "Go away"},
+            {"id": "d", "text": "Stay quiet"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This is a common Italian way to wish someone good luck, especially before an important event."
+        },
+        {
+          "id": "it002",
+          "difficulty": "easy",
+          "phrase": "Avere le mani bucate",
+          "literal_translation": "To have holey hands",
+          "choices": [
+            {"id": "a", "text": "To be clumsy"},
+            {"id": "b", "text": "To spend money carelessly"},
+            {"id": "c", "text": "To be a talented artist"},
+            {"id": "d", "text": "To work very hard"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This idiom describes someone who spends money very easily or wastefully."
+        },
+        {
+          "id": "it003",
+          "difficulty": "easy",
+          "phrase": "Non vedere l'ora",
+          "literal_translation": "To not see the hour",
+          "choices": [
+            {"id": "a", "text": "To lose track of time"},
+            {"id": "b", "text": "To be unable to read a clock"},
+            {"id": "c", "text": "To look forward to something eagerly"},
+            {"id": "d", "text": "To be late for an appointment"}
+          ],
+          "correct_option_id": "c",
+          "explanation": "This expression means that you are eagerly anticipating something."
+        },
+        {
+          "id": "it004",
+          "difficulty": "medium",
+          "phrase": "Acqua in bocca",
+          "literal_translation": "Water in the mouth",
+          "choices": [
+            {"id": "a", "text": "Keep a secret"},
+            {"id": "b", "text": "Drink more water"},
+            {"id": "c", "text": "Stop talking forever"},
+            {"id": "d", "text": "Speak very quietly"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This expression is used to tell someone to keep something confidential."
+        },
+        {
+          "id": "it005",
+          "difficulty": "medium",
+          "phrase": "Essere al verde",
+          "literal_translation": "To be at the green",
+          "choices": [
+            {"id": "a", "text": "To be environmentally conscious"},
+            {"id": "b", "text": "To have no money left"},
+            {"id": "c", "text": "To be inexperienced"},
+            {"id": "d", "text": "To be surrounded by nature"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This idiom means to be broke or have run out of money."
+        },
+        {
+          "id": "it006",
+          "difficulty": "medium",
+          "phrase": "Prendere due piccioni con una fava",
+          "literal_translation": "To catch two pigeons with one bean",
+          "choices": [
+            {"id": "a", "text": "To solve two problems with one action"},
+            {"id": "b", "text": "To get two chances at something"},
+            {"id": "c", "text": "To make a small effort"},
+            {"id": "d", "text": "To achieve something accidentally"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This means to accomplish two things with a single action."
+        },
+        {
+          "id": "it007",
+          "difficulty": "hard",
+          "phrase": "Avere il prosciutto sugli occhi",
+          "literal_translation": "To have ham over one's eyes",
+          "choices": [
+            {"id": "a", "text": "To be hungry"},
+            {"id": "b", "text": "To refuse to see something obvious"},
+            {"id": "c", "text": "To be easily distracted by food"},
+            {"id": "d", "text": "To be suspicious of everyone"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression describes someone who fails to notice something that should be obvious."
+        },
+        {
+          "id": "it008",
+          "difficulty": "hard",
+          "phrase": "Fare orecchie da mercante",
+          "literal_translation": "To make merchant's ears",
+          "choices": [
+            {"id": "a", "text": "To negotiate a difficult deal"},
+            {"id": "b", "text": "To pretend not to hear something"},
+            {"id": "c", "text": "To listen very carefully"},
+            {"id": "d", "text": "To spread rumors"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This idiom means to deliberately ignore what someone is saying."
+        },
+        {
+          "id": "it009",
+          "difficulty": "hard",
+          "phrase": "Non tutte le ciambelle riescono col buco",
+          "literal_translation": "Not all doughnuts turn out with a hole",
+          "choices": [
+            {"id": "a", "text": "Not every attempt turns out perfectly"},
+            {"id": "b", "text": "Some opportunities should be avoided"},
+            {"id": "c", "text": "Practice makes everything easier"},
+            {"id": "d", "text": "Appearances can be misleading"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This expression means that things do not always turn out as planned."
+        }
+      ]
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "questions": [
+        {
+          "id": "ja001",
+          "difficulty": "easy",
+          "phrase": "猫の手も借りたい",
+          "literal_translation": "I would even borrow a cat's paws",
+          "choices": [
+            {"id": "a", "text": "To be extremely busy and need all the help possible"},
+            {"id": "b", "text": "To love animals"},
+            {"id": "c", "text": "To work very slowly"},
+            {"id": "d", "text": "To be afraid of cats"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This expression describes being so busy that you would accept help from almost anyone, even a cat."
+        },
+        {
+          "id": "ja002",
+          "difficulty": "easy",
+          "phrase": "腹が減っては戦はできぬ",
+          "literal_translation": "You cannot fight on an empty stomach",
+          "choices": [
+            {"id": "a", "text": "Food is more important than friendship"},
+            {"id": "b", "text": "You need food and energy to do difficult work"},
+            {"id": "c", "text": "Fighting is never worthwhile"},
+            {"id": "d", "text": "You should avoid eating before work"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This proverb means that you need proper nourishment before you can work or accomplish something difficult."
+        },
+        {
+          "id": "ja003",
+          "difficulty": "easy",
+          "phrase": "猿も木から落ちる",
+          "literal_translation": "Even monkeys fall from trees",
+          "choices": [
+            {"id": "a", "text": "Nature is unpredictable"},
+            {"id": "b", "text": "Even experts make mistakes"},
+            {"id": "c", "text": "Everyone should learn to climb"},
+            {"id": "d", "text": "Practice always leads to success"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "Even someone highly skilled at something can occasionally make a mistake."
+        },
+        {
+          "id": "ja004",
+          "difficulty": "medium",
+          "phrase": "口が軽い",
+          "literal_translation": "A light mouth",
+          "choices": [
+            {"id": "a", "text": "To speak very softly"},
+            {"id": "b", "text": "To reveal secrets easily"},
+            {"id": "c", "text": "To be a talented speaker"},
+            {"id": "d", "text": "To eat very little"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This describes someone who cannot keep secrets and tends to tell others private information."
+        },
+        {
+          "id": "ja005",
+          "difficulty": "medium",
+          "phrase": "顔が広い",
+          "literal_translation": "A wide face",
+          "choices": [
+            {"id": "a", "text": "To have a large family"},
+            {"id": "b", "text": "To be well-connected and know many people"},
+            {"id": "c", "text": "To be famous for your appearance"},
+            {"id": "d", "text": "To be very outgoing"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This idiom describes someone who has a wide network of acquaintances and connections."
+        },
+        {
+          "id": "ja006",
+          "difficulty": "medium",
+          "phrase": "頭が上がらない",
+          "literal_translation": "Unable to raise one's head",
+          "choices": [
+            {"id": "a", "text": "To be physically exhausted"},
+            {"id": "b", "text": "To feel indebted or unable to stand up to someone"},
+            {"id": "c", "text": "To be too proud to apologize"},
+            {"id": "d", "text": "To be confused by a difficult idea"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression describes feeling indebted to someone or unable to oppose them because of their kindness or authority."
+        },
+        {
+          "id": "ja007",
+          "difficulty": "hard",
+          "phrase": "釘を刺す",
+          "literal_translation": "To drive in a nail",
+          "choices": [
+            {"id": "a", "text": "To give someone a warning in advance"},
+            {"id": "b", "text": "To finish a task permanently"},
+            {"id": "c", "text": "To make a difficult promise"},
+            {"id": "d", "text": "To prevent someone from leaving"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This idiom means to warn someone beforehand to make sure they do not forget or misbehave."
+        },
+        {
+          "id": "ja008",
+          "difficulty": "hard",
+          "phrase": "油を売る",
+          "literal_translation": "To sell oil",
+          "choices": [
+            {"id": "a", "text": "To make a dishonest business deal"},
+            {"id": "b", "text": "To waste time chatting or idling instead of working"},
+            {"id": "c", "text": "To work in an unusual profession"},
+            {"id": "d", "text": "To exaggerate one's achievements"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression describes wasting time or chatting when one should be working."
+        },
+        {
+          "id": "ja009",
+          "difficulty": "hard",
+          "phrase": "暖簾に腕押し",
+          "literal_translation": "Pushing against a shop curtain",
+          "choices": [
+            {"id": "a", "text": "To make progress through persistence"},
+            {"id": "b", "text": "To put effort into something with no noticeable effect"},
+            {"id": "c", "text": "To avoid a confrontation"},
+            {"id": "d", "text": "To be easily influenced by others"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression describes an effort that produces no response or meaningful result, like pushing against a curtain."
+        }
+      ]
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "questions": [
+        {
+          "id": "pt001",
+          "difficulty": "easy",
+          "phrase": "Pagar o pato",
+          "literal_translation": "To pay for the duck",
+          "choices": [
+            {"id": "a", "text": "To take the blame or suffer the consequences for something"},
+            {"id": "b", "text": "To spend too much money"},
+            {"id": "c", "text": "To buy something unnecessary"},
+            {"id": "d", "text": "To avoid a responsibility"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This expression means to take the blame or suffer the consequences, sometimes unfairly."
+        },
+        {
+          "id": "pt002",
+          "difficulty": "easy",
+          "phrase": "Estar com a corda toda",
+          "literal_translation": "To be with the whole rope",
+          "choices": [
+            {"id": "a", "text": "To be very energetic or excited"},
+            {"id": "b", "text": "To be in serious trouble"},
+            {"id": "c", "text": "To be physically strong"},
+            {"id": "d", "text": "To be very confused"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "In Brazilian Portuguese, this expression describes someone full of energy or enthusiasm."
+        },
+        {
+          "id": "pt003",
+          "difficulty": "easy",
+          "phrase": "Chutar o balde",
+          "literal_translation": "To kick the bucket",
+          "choices": [
+            {"id": "a", "text": "To give up or stop caring about the consequences"},
+            {"id": "b", "text": "To become physically exhausted"},
+            {"id": "c", "text": "To finish a difficult job"},
+            {"id": "d", "text": "To make a lucky guess"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This Brazilian expression means to lose patience or abandon restraint and stop caring about the consequences."
+        },
+        {
+          "id": "pt004",
+          "difficulty": "medium",
+          "phrase": "Fazer uma vaquinha",
+          "literal_translation": "To make a little cow",
+          "choices": [
+            {"id": "a", "text": "To raise money collectively"},
+            {"id": "b", "text": "To start a small farm"},
+            {"id": "c", "text": "To buy something expensive"},
+            {"id": "d", "text": "To help someone find a job"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This expression means that a group of people contributes money toward a shared goal."
+        },
+        {
+          "id": "pt005",
+          "difficulty": "medium",
+          "phrase": "Quebrar o galho",
+          "literal_translation": "To break the branch",
+          "choices": [
+            {"id": "a", "text": "To make a situation worse"},
+            {"id": "b", "text": "To improvise or help out with a temporary solution"},
+            {"id": "c", "text": "To finish a task perfectly"},
+            {"id": "d", "text": "To avoid doing something difficult"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This Brazilian idiom means to find a makeshift solution or help someone out temporarily."
+        },
+        {
+          "id": "pt006",
+          "difficulty": "medium",
+          "phrase": "Ficar de molho",
+          "literal_translation": "To stay soaking",
+          "choices": [
+            {"id": "a", "text": "To stay home resting or recovering"},
+            {"id": "b", "text": "To go swimming"},
+            {"id": "c", "text": "To avoid drinking water"},
+            {"id": "d", "text": "To spend time cooking"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This expression means to stay inactive, often because of illness or injury."
+        },
+        {
+          "id": "pt007",
+          "difficulty": "hard",
+          "phrase": "Engolir sapos",
+          "literal_translation": "To swallow frogs",
+          "choices": [
+            {"id": "a", "text": "To accept an unpleasant situation without complaining"},
+            {"id": "b", "text": "To believe something ridiculous"},
+            {"id": "c", "text": "To speak without thinking"},
+            {"id": "d", "text": "To overcome a physical fear"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This idiom means to put up with something unpleasant, often without being able to protest."
+        },
+        {
+          "id": "pt008",
+          "difficulty": "hard",
+          "phrase": "Pôr as barbas de molho",
+          "literal_translation": "To put one's beard to soak",
+          "choices": [
+            {"id": "a", "text": "To prepare for a celebration"},
+            {"id": "b", "text": "To become cautious after a warning or bad experience"},
+            {"id": "c", "text": "To hide one's true feelings"},
+            {"id": "d", "text": "To avoid making new friends"}
+          ],
+          "correct_option_id": "b",
+          "explanation": "This expression means to be cautious and take precautions after seeing what happened to someone else."
+        },
+        {
+          "id": "pt009",
+          "difficulty": "hard",
+          "phrase": "Dar com os burros n'água",
+          "literal_translation": "To put the donkeys in the water",
+          "choices": [
+            {"id": "a", "text": "To fail or have an effort come to nothing"},
+            {"id": "b", "text": "To make an unexpected discovery"},
+            {"id": "c", "text": "To take an unnecessary risk"},
+            {"id": "d", "text": "To find a creative solution"}
+          ],
+          "correct_option_id": "a",
+          "explanation": "This Portuguese expression means to fail or see a plan go wrong."
         }
       ]
     }
